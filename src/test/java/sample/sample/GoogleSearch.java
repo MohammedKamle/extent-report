@@ -113,9 +113,10 @@ public class GoogleSearch {
 			throws InterruptedException, UnsupportedEncodingException, URISyntaxException, IOException {
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("build", "Corebridge Demo");
-		caps.setCapability("name", "your test name");
+		caps.setCapability("name", "chrome test");
 		caps.setCapability("platform", "Windows 10");
 		caps.setCapability("browserName", "Chrome");
+		caps.setCapability("network", true);
 		caps.setCapability("version", "100.0");
 		caps.setCapability("resolution", "1600x1200");
 		caps.setCapability("tunnel", false);
@@ -138,7 +139,7 @@ public class GoogleSearch {
 			throws InterruptedException, UnsupportedEncodingException, URISyntaxException, IOException {
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("build", "Corebridge Demo");
-		caps.setCapability("name", "your test name");
+		caps.setCapability("name", "edge test");
 		caps.setCapability("platform", "Windows 10");
 		caps.setCapability("browserName", "MicrosoftEdge");
 		caps.setCapability("version", "100.0");
@@ -164,7 +165,7 @@ public class GoogleSearch {
 			throws InterruptedException, UnsupportedEncodingException, URISyntaxException, IOException {
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("build", "Corebridge Demo");
-		caps.setCapability("name", "your test name");
+		caps.setCapability("name", "safari test");
 		caps.setCapability("platform", "macOS Mojave");
 		caps.setCapability("browserName", "Safari");
 		caps.setCapability("version", "12.0");
@@ -195,7 +196,7 @@ public class GoogleSearch {
 			throws InterruptedException, UnsupportedEncodingException, URISyntaxException, IOException {
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("build", "Corebridge Demo");
-		caps.setCapability("name", "your test name");
+		caps.setCapability("name", "firefox test");
 		caps.setCapability("platform", "macOS Mojave");
 		caps.setCapability("browserName", "Firefox");
 		caps.setCapability("version", "99.0");
