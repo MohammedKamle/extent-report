@@ -69,18 +69,13 @@
     <version>4.0.0-alpha-6</version>
 </dependency>
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-<dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.3.0</version>
-    <scope>test</scope>
-</dependency>
-<!-- Install using maven -->
-<dependency>
-    <groupId>com.browserstack</groupId>
-    <artifactId>browserstack-local-java</artifactId>
-    <version>0.1.0</version>
-</dependency>
+      <dependency>
+          <groupId>org.testng</groupId>
+          <artifactId>testng</artifactId>
+          <version>7.6.1</version>
+          <scope>test</scope>
+      </dependency>
+
     
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
 <dependency>
