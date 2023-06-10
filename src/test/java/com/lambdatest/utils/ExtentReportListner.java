@@ -46,7 +46,7 @@ public class ExtentReportListner {
 	}
 
 	public static void onTestStart() {
-		reports = new ExtentHtmlReporter("target/surefire-reports/Extent.html");
+		reports = new ExtentHtmlReporter("./extent.html");
 		extent = new ExtentReports();
 		extent.attachReporter(reports);
 	}
