@@ -32,7 +32,7 @@ public class GoogleSearch {
 
 	 //static String Status = "failed";
 	public static final String AUTOMATE_USERNAME = "mohammadk";
-	public static final String AUTOMATE_ACCESS_KEY = "rakcBoBYHiy8BW7osVi4N1LGYjgJhRfAwvL1pPUvwCA1wfNChd";
+	public static final String AUTOMATE_ACCESS_KEY = "gkrzT0iFKjDjehXpMTznxM1lHIZXSYjV3H8Ntk0s2rCUJJO3WU";
 	public static final String URL = "https://" + AUTOMATE_USERNAME + ":" + AUTOMATE_ACCESS_KEY
 			+ "@hub.lambdatest.com/wd/hub";
 
