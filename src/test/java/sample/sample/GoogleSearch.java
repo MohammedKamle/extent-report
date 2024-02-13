@@ -119,7 +119,7 @@ public class GoogleSearch {
 		caps.setCapability("network", true);
 		caps.setCapability("version", "100.0");
 		caps.setCapability("resolution", "1600x1200");
-		caps.setCapability("tunnel", false);
+		caps.setCapability("tunnel", true);
 		com.lambdatest.utils.LambdaTestApi ltApi = new com.lambdatest.utils.LambdaTestApi();
 		com.lambdatest.utils.ExtentReportListner reporter = new com.lambdatest.utils.ExtentReportListner();
 		WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
@@ -144,7 +144,7 @@ public class GoogleSearch {
 		caps.setCapability("browserName", "MicrosoftEdge");
 		caps.setCapability("version", "100.0");
 		caps.setCapability("resolution", "1600x1200");
-		caps.setCapability("tunnel", false);
+		caps.setCapability("tunnel", true);
 		com.lambdatest.utils.LambdaTestApi ltApi = new com.lambdatest.utils.LambdaTestApi();
 		com.lambdatest.utils.ExtentReportListner reporter = new com.lambdatest.utils.ExtentReportListner();
 		WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
@@ -170,7 +170,7 @@ public class GoogleSearch {
 		caps.setCapability("browserName", "Safari");
 		caps.setCapability("version", "12.0");
 		caps.setCapability("resolution", "1920x1080");
-		caps.setCapability("tunnel", false);
+		caps.setCapability("tunnel", true);
 		com.lambdatest.utils.LambdaTestApi ltApi = new com.lambdatest.utils.LambdaTestApi();
 		com.lambdatest.utils.ExtentReportListner reporter = new com.lambdatest.utils.ExtentReportListner();
 		WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
@@ -201,7 +201,7 @@ public class GoogleSearch {
 		caps.setCapability("browserName", "Firefox");
 		caps.setCapability("version", "99.0");
 		caps.setCapability("resolution", "1920x1080");
-		caps.setCapability("tunnel", false);
+		caps.setCapability("tunnel", true);
 		com.lambdatest.utils.LambdaTestApi ltAPI = new com.lambdatest.utils.LambdaTestApi();
 		com.lambdatest.utils.ExtentReportListner reporter = new com.lambdatest.utils.ExtentReportListner();
 		WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
