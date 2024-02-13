@@ -29,7 +29,7 @@ public class LambdaTestApi {
 }
 
     public void markTestStatus(String session_id, String status,String reason) throws URISyntaxException, IOException {
-        URI uri = new URI("https://mohammadk:rakcBoBYHiy8BW7osVi4N1LGYjgJhRfAwvL1pPUvwCA1wfNChd@api.lambdatest.com/automation/api/v1/sessions/"+session_id+".json");
+        URI uri = new URI("https://mohammadk:gkrzT0iFKjDjehXpMTznxM1lHIZXSYjV3H8Ntk0s2rCUJJO3WU@api.lambdatest.com/automation/api/v1/sessions/"+session_id+".json");
         HttpPut putRequest = new HttpPut(uri);
 
         ArrayList<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
@@ -41,7 +41,7 @@ public class LambdaTestApi {
     }
 
     public JSONObject getSessionDetails(String session_id) throws URISyntaxException, IOException {
-        URI uri = new URI("https://mohammadk:rakcBoBYHiy8BW7osVi4N1LGYjgJhRfAwvL1pPUvwCA1wfNChd@api.lambdatest.com/automation/api/v1/sessions/"+session_id);
+        URI uri = new URI("https://mohammadk:gkrzT0iFKjDjehXpMTznxM1lHIZXSYjV3H8Ntk0s2rCUJJO3WU@api.lambdatest.com/automation/api/v1/sessions/"+session_id);
         HttpGet getRequest = new HttpGet(uri);
         HttpResponse response =  HttpClientBuilder.create().build().execute(getRequest);
         String json_string = EntityUtils.toString(response.getEntity());
@@ -50,7 +50,7 @@ public class LambdaTestApi {
     }
     
     public JSONObject getVideo(String session_id) throws URISyntaxException, IOException {
-        URI uri = new URI("https://mohammadk:rakcBoBYHiy8BW7osVi4N1LGYjgJhRfAwvL1pPUvwCA1wfNChd@api.lambdatest.com/automation/api/v1/sessions/"+session_id+"/video");
+        URI uri = new URI("https://mohammadk:gkrzT0iFKjDjehXpMTznxM1lHIZXSYjV3H8Ntk0s2rCUJJO3WU@api.lambdatest.com/automation/api/v1/sessions/"+session_id+"/video");
         HttpGet getRequest = new HttpGet(uri);
         HttpResponse response =  HttpClientBuilder.create().build().execute(getRequest);
         String json_string = EntityUtils.toString(response.getEntity());
@@ -60,7 +60,7 @@ public class LambdaTestApi {
     
     
     public static JSONObject getBuildDetails(String build_id) throws URISyntaxException, IOException {
-        URI uri = new URI("https://mohammadk:rakcBoBYHiy8BW7osVi4N1LGYjgJhRfAwvL1pPUvwCA1wfNChd@api.lambdatest.com/automation/api/v1/sessions/"+build_id+"/sessions.json");
+        URI uri = new URI("https://mohammadk:gkrzT0iFKjDjehXpMTznxM1lHIZXSYjV3H8Ntk0s2rCUJJO3WU@api.lambdatest.com/automation/api/v1/sessions/"+build_id+"/sessions.json");
         HttpGet getRequest = new HttpGet(uri);
         HttpResponse response =  HttpClientBuilder.create().build().execute(getRequest);
         String json_string = EntityUtils.toString(response.getEntity());
